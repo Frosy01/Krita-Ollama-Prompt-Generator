@@ -42,9 +42,8 @@ Linux:
 Krita → Tools → Manage Python Plugins
 Enable: Ollama Prompt Generator
 
-4. Restart Krita
-🖼️ Screenshots
-(You may upload images here later)
+4. Restart Krita🖼️
+<img width="542" height="394" alt="螢幕擷取畫面 2025-12-07 215234" src="https://github.com/user-attachments/assets/f1f15c34-edb8-4431-a2f3-a82e69c546d7" />
 
 ⚙️ Requirements
 Krita 5.2+
@@ -121,8 +120,13 @@ Linux:
 Krita → Tools → Python 外掛管理
 勾選：Ollama Prompt Generator
 
-4. 重啟 Krita
-🖼️ <img width="542" height="394" alt="螢幕擷取畫面 2025-12-07 215234" src="https://github.com/user-attachments/assets/f1f15c34-edb8-4431-a2f3-a82e69c546d7" />
+4. 重啟 Krita🖼️
+   <img width="542" height="394" alt="螢幕擷取畫面 2025-12-07 215234" src="https://github.com/user-attachments/assets/f1f15c34-edb8-4431-a2f3-a82e69c546d7" />
+   <img width="2558" height="1375" alt="螢幕擷取畫面 2025-12-06 100002" src="https://github.com/user-attachments/assets/8588ea6e-084d-441f-9c4f-3678f5c7eaea" />
+   <img width="2557" height="1230" alt="螢幕擷取畫面 2025-12-06 123031" src="https://github.com/user-attachments/assets/f342e4c6-f786-48c5-9acf-12f2eef266f7" />
+   <img width="2556" height="1235" alt="螢幕擷取畫面 2025-12-06 013418" src="https://github.com/user-attachments/assets/7d647a49-9932-46f4-88a8-61e3f55fafde" />
+
+
 
 
 ⚙️ 系統需求
