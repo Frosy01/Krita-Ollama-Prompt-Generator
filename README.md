@@ -1,5 +1,3 @@
-<p align="center"> <a href="#english-version--english-readme"> <img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge" /> </a> &nbsp; <a href="#繁體中文版本--traditional-chinese-readme"> <img src="https://img.shields.io/badge/語言-繁體中文-red?style=for-the-badge" /> </a> </p>
-<a id="english-version--english-readme"></a>🇺🇸 English Version | English README
 🖌️ Wuhe Design – Krita × Ollama Prompt Generator
 Local LLM Prompt Generator for Krita (Gemma / Ollama / AI Diffusion Integration)
 🎨 Overview
@@ -74,7 +72,6 @@ Pull Requests and Issues are welcome.
 📜 License
 MIT License
 
-<a id="繁體中文版本--traditional-chinese-readme"></a>🇹🇼 繁體中文版本 | Traditional Chinese README
 🖌️ 吾禾設計 – Krita × Ollama Prompt Generator
 在 Krita 中使用本地 LLM（Gemma / Ollama）生成提示詞的 AI 插件
 🎨 插件介紹
