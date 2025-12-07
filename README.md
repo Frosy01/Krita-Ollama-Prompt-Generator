@@ -19,10 +19,7 @@ This plugin integrates directly with
 👉 Acly/krita-ai-diffusion https://github.com/Acly/krita-ai-diffusion
 
 Generate prompts using a local LLM → click Send to AI Plugin → the text is instantly inserted into the Stable Diffusion prompt input.
-
-No copy-paste.
-No window switching.
-Fully inside Krita.
+No copy-paste.No window switching.Fully inside Krita.
 
 📦 Installation
 1. Download
@@ -61,20 +58,25 @@ pykrita/
       ├── icons/
       └── README.md
 
-❤️ About Wuhe Design
+❤️ About Wuhe Design 
 Wuhe Design focuses on AI × Architecture, AI × Interior Design, and practical creative tools that enhance real workflows.
 Our mission is to build AI tools that designers can truly use.
 
-🤝 Contribute
-Pull Requests and Issues are welcome.
+🤝 Contribute  Pull Requests and Issues are welcome.
+📜 License  MIT License
 
-📜 License
-MIT License
+Before using the plugin, you must install Ollama.
+Ollama allows you to run local LLM models such as Gemma and Llama on your machine.
+📥 Download Ollama (Official Page):
+👉 https://ollama.com/download
+After installation, you can install a model, for example:
+ollama pull gemma:4b
+Restart Krita after installation, and the plugin will automatically detect your available models.
 
+______________________________________________________________________________________________________________________________
 🖌️ 吾禾設計 – Krita × Ollama Prompt Generator
 在 Krita 中使用本地 LLM（Gemma / Ollama）生成提示詞的 AI 插件
 🎨 插件介紹
-
 Krita × Ollama Prompt Generator 是由吾禾設計開發的本地 LLM 提示詞生成外掛。
 所有處理皆在你的電腦中執行，不需 API、不需雲端，同時支援多種 Gemma 模型，可用於：
 生成提示詞
@@ -127,8 +129,6 @@ Krita → Tools → Python 外掛管理
    <img width="2556" height="1235" alt="螢幕擷取畫面 2025-12-06 013418" src="https://github.com/user-attachments/assets/7d647a49-9932-46f4-88a8-61e3f55fafde" />
 
 
-
-
 ⚙️ 系統需求
 Krita 5.2+
 已安裝 Ollama
@@ -148,3 +148,11 @@ pykrita/
 ❤️ 吾禾設計專注於：AI × 建築  AI × 室內設計設計師的 AI 工具落地應用目標是打造每位設計師真正用得上的 AI 工具。
 🤝 參與開發 歡迎提交 Issues、Pull Requests。
 📜 授權  MIT 授權
+
+使用本插件之前，需要先安裝 Ollama。
+Ollama 是一個可在本機執行 LLM（如 Gemma、Llama）的工具。
+📥 下載 Ollama（官方網站）：
+👉 https://ollama.com/download
+安裝後即可在本機執行模型，例如：
+ollama pull gemma:4b
+安裝完成後重新啟動 Krita，插件會自動偵測已安裝的模型。
